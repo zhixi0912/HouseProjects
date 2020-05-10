@@ -1,0 +1,31 @@
+.icon-list-box{
+    position: relative;
+    z-index: 2;
+    .on.icon-list-pop{
+        display: block;
+    }
+    i{
+        cursor: pointer;
+    }
+    .icon-list-pop{
+        position: absolute;
+        top: 26px;
+        right: -12px;
+        width: 354px;
+        display: none;
+        .ant-card-body{
+            padding: 0;
+            .iocn-td{
+                padding: 10px 0;
+                border: 1px solid #e8e8e8;
+                margin-top: -1px;
+                margin-left: -1px;
+            }
+            .iocn-td:hover{
+                color: #fff;
+                background-color: #40a9ff;
+                border-color: #40a9ff;
+            }
+        }
+    }
+}

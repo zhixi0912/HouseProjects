@@ -1,0 +1,53 @@
+const menuList = [
+    {
+        title:'首页',
+        key:'/home',
+        icon:'home'
+    },
+    {
+        title:'用户中心',
+        key:'/userCore',
+        icon:'user',
+        children:[
+            {
+                title:'用户管理',
+                key:'/userCore/userManage',
+            },
+            {
+                title:'权限管理',
+                key:'/userCore/privilegeManage',
+            },
+            {
+                title:'菜单管理',
+                key:'/userCore/menuManage',
+            }
+        ]
+    },
+    {
+        title:'站点设置',
+        key:'/websiteSetup',
+        icon:'setting'
+    },
+    {
+        title:'次页',
+        key:'/sdas',
+        icon:'shop'
+    },
+    {
+        title:'二次页',
+        key:'/modules',
+        icon:'user',
+        children:[
+            {
+                title:'测试222',
+                key:'/modules/homess1'
+            },
+            {
+                title:'测试2333',
+                key:'/modules/homesss1'
+            }
+        ]
+    }
+];
+
+export default menuList;

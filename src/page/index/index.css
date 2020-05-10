@@ -1,0 +1,30 @@
+.ant-layout {
+  min-height: 100vh;
+}
+.logo {
+  height: 64px;
+  background: rgba(33, 28, 28, 0.2);
+}
+.main-box {
+  min-height: 95vh;
+}
+.menu-left {
+  border-right: 1px solid #e8e8e8;
+}
+.toggle {
+  height: 52px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 52px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.modular-main {
+  padding: 15px;
+  background: #fff;
+  min-height: calc(100vh - (64px + 30px + 21px + 12px));
+  min-height: -moz-calc(100vh - (64px + 30px + 21px + 12px));
+  min-height: -webkit-calc(100vh - (64px + 30px + 21px + 12px));
+  margin: 0 15px;
+  overflow-y: auto;
+}
+/*# sourceMappingURL=index.css.map */
